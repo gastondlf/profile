@@ -1,0 +1,101 @@
+body {
+    background-color: rgba(236, 236, 236, 0.934);
+    font-family: Nunito;
+    color: rgb(14, 0, 82);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 600px;
+    }
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 400px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+h1, h2, h3 {
+    color: rgb(58, 58, 173);
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-violet {
+    background-color: rgb(74, 36, 110);
+    padding: 10px 25px;
+}
+
+
+.card-white {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+    margin: 20px 0px;
+    padding: 30px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.p-close {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main-link {
+    margin-top: 30px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-inline i {
+    font-size: 35px;
+    background-color: rgb(209, 209, 209);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list-inline i:hover {
+    background-color: black;
+}
